@@ -1,0 +1,4 @@
+-cpu=rx600
+-output="C:\WorkSpace\RX63T_CRC_driver\RX63T_CRC_driver\Debug\RX63T_CRC_driver.lib"
+-lang=c99
+-head=runtime,stdio,stdlib,string,new

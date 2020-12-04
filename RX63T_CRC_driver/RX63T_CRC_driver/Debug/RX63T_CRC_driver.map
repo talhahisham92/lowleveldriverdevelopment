@@ -1,0 +1,87 @@
+Optimizing Linkage Editor (V.10.02.00.000)        04-Dec-2020 15:30:42
+
+*** Options ***
+
+-subcommand=C:\WorkSpace\RX63T_CRC_driver\RX63T_CRC_driver\Debug\RX63T_CRC_driver.hlk
+-noprelink
+-rom=D=R,D_1=R_1,D_2=R_2
+-nomessage
+-list="C:\WorkSpace\RX63T_CRC_driver\RX63T_CRC_driver\Debug\RX63T_CRC_driver.map"
+-nooptimize
+-start=B_1,R_1,B_2,R_2,B,R,SU,SI/01000,PResetPRG/0FFFF8000,C_1,C_2,C,C$*,D_1,D_2,D,P,PIntPRG,W*,L/0FFFF8100,FIXEDVECT/0FFFFFFD0
+-nologo
+-input="C:\WorkSpace\RX63T_CRC_driver\RX63T_CRC_driver\Debug\crc.obj"
+-input="C:\WorkSpace\RX63T_CRC_driver\RX63T_CRC_driver\Debug\dbsct.obj"
+-input="C:\WorkSpace\RX63T_CRC_driver\RX63T_CRC_driver\Debug\hwsetup.obj"
+-input="C:\WorkSpace\RX63T_CRC_driver\RX63T_CRC_driver\Debug\id_code.obj"
+-input="C:\WorkSpace\RX63T_CRC_driver\RX63T_CRC_driver\Debug\intprg.obj"
+-input="C:\WorkSpace\RX63T_CRC_driver\RX63T_CRC_driver\Debug\lcd.obj"
+-input="C:\WorkSpace\RX63T_CRC_driver\RX63T_CRC_driver\Debug\main.obj"
+-input="C:\WorkSpace\RX63T_CRC_driver\RX63T_CRC_driver\Debug\resetprg.obj"
+-input="C:\WorkSpace\RX63T_CRC_driver\RX63T_CRC_driver\Debug\sbrk.obj"
+-input="C:\WorkSpace\RX63T_CRC_driver\RX63T_CRC_driver\Debug\switch.obj"
+-input="C:\WorkSpace\RX63T_CRC_driver\RX63T_CRC_driver\Debug\vect.obj"
+-library="C:\WorkSpace\RX63T_CRC_driver\RX63T_CRC_driver\Debug\RX63T_CRC_driver.lib"
+-output="C:\WorkSpace\RX63T_CRC_driver\RX63T_CRC_driver\Debug\RX63T_CRC_driver.abs"
+-end
+
+*** Error information ***
+
+*** Mapping List ***
+
+SECTION                            START      END         SIZE   ALIGN
+
+B_1
+                                  00001000  00001000         0   1
+R_1
+                                  00001000  00001003         4   1
+B_2
+                                  00001004  00001004         0   2
+R_2
+                                  00001004  00001005         2   2
+B
+                                  00001008  00001407       400   4
+R
+                                  00001408  00001413         c   4
+SU
+                                  00001414  00001513       100   4
+SI
+                                  00001514  00001813       300   4
+PResetPRG
+                                  ffff8000  ffff8049        4a   1
+C_1
+                                  ffff8100  ffff8100         0   1
+C_2
+                                  ffff8100  ffff8100         0   2
+C
+                                  ffff8100  ffff811c        1d   4
+C$DSEC
+                                  ffff8120  ffff814f        30   4
+C$BSEC
+                                  ffff8150  ffff8167        18   4
+C$VECT
+                                  ffff8168  ffff8567       400   4
+D_1
+                                  ffff8568  ffff856b         4   1
+D_2
+                                  ffff856c  ffff856d         2   2
+D
+                                  ffff8570  ffff857b         c   4
+P
+                                  ffff857c  ffff93b5       e3a   1
+PIntPRG
+                                  ffff93b6  ffff9497        e2   1
+W_1
+                                  ffff9498  ffff9498         0   1
+W_2
+                                  ffff9498  ffff9498         0   2
+W
+                                  ffff9498  ffff9498         0   4
+L
+                                  ffff9498  ffff9498         0   4
+$ADDR_C_FFFFFF80
+                                  ffffff80  ffffff83         4   1
+$ADDR_C_FFFFFFA0
+                                  ffffffa0  ffffffaf        10   1
+FIXEDVECT
+                                  ffffffd0  ffffffff        30   4

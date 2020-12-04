@@ -1,0 +1,103 @@
+*******************************************************************************
+DESCRIPTION		Renesas Starter Kit Project Readme File
+*******************************************************************************
+
+/******************************************************************************
+* History       : 30.01.2013  Ver. 1.00 First Release
+/******************************************************************************
+
+This project can be debugged with HEW and an E1.
+
+The Quick Start Guide supplied with the RSK can be referred to for help in
+connecting to the target. 
+
+Details of the sample project can be found at the top of the C file which
+contains the project's main() function.
+
+Online Support and Technical Contact Details:
+	Please refer to the contact details within the “Quick Start Guide”.
+
+/*	RSKRX63T - Board Connector Cross-Reference	*/
+Device = R5F563T6EDFM
+
+********************************************************************************************
+PORT        PIN NAME/           	RING                COMMON              RSK
+NUMBER      FUNCTION            	BUS PIN             PIN                 Hardware
+********************************************************************************************
+---         VCC                 	J1-11, J2-4	    ---                 ---
+                   			J3-10
+
+---         VSS                 	J1-8,  J2-6         JA1-2, JA1-4        ---
+                                	J3-12               JA2-4, JA6-24
+
+---         AVCC0               	J4-9                JA1-5               ---
+---         VREFH0              	J4-10               JA1-7               ---
+
+---         AVSS0               	J4-12               JA1-6               ---
+---         VREFL0              	J4-11               ---                 ---
+
+---         EXTAL               	J1-9                JA2-2                ---
+---         XTAL                	J1-7                ---                 ---
+
+---         MD		        	J1-5                ---                 E1
+---         EMLE	        	J1-1                ---                 E1
+---         RES#	        	J1-6                JA2-1               E1
+
+P00         IRQ2-DS_GTIOC3A		J1-2                JA2-22, JA2-23      SW3
+P01         IO0_GTIOC3B			J1-4                JA1-15, JA2-20      ---
+      
+P10         IRQ0-DS			J4-14               JA2-7               SW1
+P10         IRQ1-DS			J4-13               JA2-9               SW2
+
+P22         CTS0RTS0_MTIC5W		J3-16               JA2-12, JA6-16      ---
+P23         SCK0_MTIC5V			J3-15               JA2-10, JA6-15      ---
+P24         RXD0_MTIC5U			J3-14               JA2-8,  JA6-14      RS232
+
+P30         TXD0_MTIOC0B		J3-13               JA2-6,  JA2-9       RS232
+P31         MTIOC0A			J3-11               JA2-7               ---
+P32         MTIOC3C			J3-9                JA2-11, JA2-21      ---
+P33         MTIOC3A			J3-8                JA6-13              LED3
+
+P40         AN000              		J4-8                JA1-9               RV1
+P41         AN001               	J4-7                JA1-10              ---
+P42         AN002               	J4-6                JA1-11              ---
+P43         AN003               	J4-5                JA1-12              ---
+P44         AN004               	J4-4                JA5-1               ---
+P45         AN005               	J4-3                JA5-2               ---
+P46         AN006               	J4-2                JA5-3               ---
+P47         AN007               	J4-1                JA5-4               ---
+
+P70         POE0n			J3-7                JA2-24              ---
+P71         MTIOC3B			J3-6                JA2-13              LED0
+P72         MTIOC4A			J3-5                JA2-15              LED1
+P73         MTIOC4B			J3-4                JA2-17              LED2
+P74         MTIOC3D			J3-3                JA2-14              ---
+P75         MTIOA4C			J3-2                JA2-16              ---
+P76         MTIOC4D			J3-1                JA2-18              ---
+	
+P91         DLCDD4_IO4			J2-16               JA1-19              LCD
+P92         DLCDD5_IO5			J2-15               JA1-20              LCD
+P93         DLCDD6_IO6			J2-14               JA1-21              LCD
+P94         DLCDD7_IO7			J2-13               JA1-22              LCD
+
+PA2         DLCDE_IO2			J2-12               JA1-17              LCD
+PA3         DLCDRS_IO3			J2-11               JA1-18              LCD
+PA4         ADTRG0n			J4-16               JA1-8       	SW3
+PA5         MTIOC1A			J4-15               JA2-23              ---
+
+PB0         IO1_MTIOC0D			J2-12               JA1-16, JA2-19      ---
+PB1         SCL_MTIOC0C         	J2-9                JA1-26, JA2-23      ---
+PB2         SDA_MTCLKB			J2-8                JA1-25, JA2-26      ---
+PB3         LINNSLP_MTCLKA		J2-7                JA2-25              LIN
+PB4         IRQ3-DS			J2-5                JA1-23              ---
+PB5         LINTXD_TXD12        	J2-3                JA6-8       	LIN
+PB6         LINRXD_RXD12        	J2-2                JA6-7      		LIN
+PB7         SCK12_GTIOC2B		J2-1                JA5-24, JA6-10      ---
+
+
+PD3         TDO_TXD1_GTIOC2A		J1-16               JA5-23, JA6-9       E1
+PD4         TCK_FINEC_SCK1_GTIOC1B	J1-15               JA5-22, JA6-11      E1
+PD5         TDI_RXD1_GTIOC1A		J1-14               JA5-21, JA6-10      E1
+PD6         TMS_GTIOC0B			J1-13               JA5-20              E1
+PD7         TRSTn_GTIOC0A		J1-12               JA5-19	        E1
+
