@@ -1,0 +1,4 @@
+-cpu=rx600
+-output="C:\WorkSpace\RX63T_GPT_driver\RX63T_GPT_driver\Debug\RX63T_GPT_driver.lib"
+-lang=c99
+-head=runtime,stdio,stdlib,string,new

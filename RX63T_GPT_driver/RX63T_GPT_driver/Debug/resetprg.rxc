@@ -1,0 +1,10 @@
+-cpu=rx600
+-lang=c99
+-message
+-change_message=warning
+-output=obj="C:\WorkSpace\RX63T_GPT_driver\RX63T_GPT_driver\Debug\resetprg.obj"
+-debug
+-section=L=C
+-optimize=0
+"C:\WorkSpace\RX63T_GPT_driver\RX63T_GPT_driver\resetprg.c"
+-nologo
