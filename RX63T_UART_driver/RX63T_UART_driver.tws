@@ -1,0 +1,23 @@
+[HIMDBVersion]
+2.0
+[DATABASE_VERSION]
+"1.2" 
+[CURRENT_PROJECT]
+"RX63T_UART_driver" 
+[GENERAL_DATA]
+[BREAKPOINTS]
+[OPEN_WORKSPACE_FILES]
+"C:\WorkSpace\RX63T_UART_driver\RX63T_UART_driver\hwsetup.c" 
+"C:\WorkSpace\RX63T_UART_driver\RX63T_UART_driver\iodefine.h" 
+"C:\WorkSpace\RX63T_UART_driver\RX63T_UART_driver\main.c" 
+"C:\WorkSpace\RX63T_UART_driver\RX63T_UART_driver\uart.c" 
+"C:\WorkSpace\RX63T_UART_driver\RX63T_UART_driver\uart.h" 
+[WORKSPACE_FILE_STATES]
+"C:\WorkSpace\RX63T_UART_driver\RX63T_UART_driver\hwsetup.c" 200 200 1438 461 0 1 
+"C:\WorkSpace\RX63T_UART_driver\RX63T_UART_driver\iodefine.h" 75 75 1438 461 0 4 
+"C:\WorkSpace\RX63T_UART_driver\RX63T_UART_driver\main.c" 175 175 1434 457 0 0 
+"C:\WorkSpace\RX63T_UART_driver\RX63T_UART_driver\uart.c" -8 -30 1679 724 1 2 
+"C:\WorkSpace\RX63T_UART_driver\RX63T_UART_driver\uart.h" 50 50 1438 461 0 3 
+[LOADED_PROJECTS]
+"RX63T_UART_driver" 
+[END]

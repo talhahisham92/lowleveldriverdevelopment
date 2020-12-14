@@ -1,0 +1,4 @@
+-cpu=rx600
+-output="C:\WorkSpace\RX63T_UART_driver\RX63T_UART_driver\Debug\RX63T_UART_driver.lib"
+-lang=c99
+-head=runtime,stdio,stdlib,string,new
