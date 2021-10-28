@@ -11,7 +11,7 @@
 #include "crc.h"
 #include <machine.h>
 #include "iodefine.h"
-
+//nooooo
 void clearCRC()
 {
 	CRC.CRCCR.BIT.DORCLR = 1; // clear CRCDOR register
